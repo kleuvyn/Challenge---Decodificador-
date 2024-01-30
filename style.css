@@ -6,7 +6,6 @@ body {
     font-size: 100%;
     font: inherit;
     vertical-align: baseline;
-    line-height: 2.5;
     background-color: #000000;
 }
 
@@ -230,12 +229,15 @@ button {
     display: none;
 }
 
+.footer{
+    display: flex;
+}
 footer{
     display: flex;
     justify-content: center;
     width: 100%;
     margin: 0;
-    background-color: #000000;
+    background-color: #7d4efd23;
     color: #ffffff;
     text-align: justify;
     font-family: Inter;
@@ -244,8 +246,40 @@ footer{
     font-weight: 100;
 }
 
+
+.footer-conteudo{
+    display: flex;
+    width:auto
+
+    justify-content: center;
+    margin: 0;
+    background-color: #7d4efdc7;
+    text-align: center;
+    flex-direction: column;
+    padding: 0px;
+    font-weight: 900px;
+}
+
+.imagens-footer{
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+}
+.img-footer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 55px;
+    height: 55px;
+}
+footer a{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
 @media screen and (max-width: 900px) {
-.texto {
+    .texto {
         width: auto;
         height: auto;
         margin:48px;
@@ -254,8 +288,7 @@ footer{
     .background-section {
         width:auto;
         height: auto;
-        margin: 5px;
-        padding: 5px;
+
     }
 
     #background1 {
@@ -269,7 +302,7 @@ footer{
         background-image: url('IMAGENS/Decodificador.jpg');
         flex-direction: column;
         background-position: center;
-        width:95%;
+        width:100%;
         height:auto;
     }
 
