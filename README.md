@@ -6,7 +6,7 @@ Bem-vindo ao nosso universo de descriptografia! Desvendamos códigos e tornamos 
 
 ## Descrição
 
-Este projeto é um descriptografador que tem como objetivo revelar mensagens secretas escondidas por códigos. Utilizamos algoritmos avançados para decifrar e mostrar as mensagens ocultas.
+Este projeto é um descriptografador que tem como objetivo revelar mensagens secretas escondidas por códigos. 
 
 ## Funcionalidades
 
